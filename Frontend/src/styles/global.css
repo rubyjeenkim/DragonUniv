@@ -37,8 +37,9 @@ button:disabled { cursor: not-allowed; opacity: .52; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,11,.92), rgba(92,10,29,.58) 48%, rgba(11,11,11,.3)), linear-gradient(0deg, rgba(11,11,11,.48), rgba(11,11,11,.12)); }
 .hero-content { position: relative; z-index: 1; max-width: 840px; }
 .eyebrow { margin: 0 0 12px; color: var(--gold); font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-.hero h1 { margin: 0; font-size: clamp(42px, 7vw, 92px); line-height: 1.03; font-weight: 950; letter-spacing: 0; }
-.hero h1 span { display: block; margin-top: 10px; }
+.hero h1 { margin: 0; font-size: clamp(36px, 5.5vw, 72px); line-height: 1.08; font-weight: 950; letter-spacing: 0; }
+.hero h1 .hero-title-line { display: block; white-space: nowrap; }
+.hero h1 .hero-title-line + .hero-title-line { margin-top: 10px; }
 .hero h2 { margin: 24px 0 0; color: #f5dce4; font-size: clamp(18px, 2vw, 28px); font-weight: 700; }
 .hero-copy { color: #ddd1d5; max-width: 690px; font-size: 17px; line-height: 1.7; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
@@ -295,7 +296,7 @@ th { color: var(--muted); font-size: 12px; text-transform: uppercase; }
   .logo img { width: 95px; height: 95px; }
   .topbar-title { display: none; }
   .hero { min-height: calc(100vh - 202px); padding: 40px 18px; }
-  .hero h1 { font-size: clamp(38px, 12vw, 58px); }
+  .hero h1 { font-size: clamp(26px, 8vw, 42px); }
   .slide-card { width: 280px; }
   .app-shell { grid-template-rows: 86px auto 1fr; }
   .sidebar { top: 86px; }

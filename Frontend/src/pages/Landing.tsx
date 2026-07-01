@@ -20,15 +20,15 @@ export function Landing() {
       <section className="hero" style={{ backgroundImage: `url(${assets.hero})` }}>
         <div className="hero-overlay" />
         <motion.div className="hero-content" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-          <p className="eyebrow">Production-like University Infrastructure</p>
+          <p className="eyebrow">MYEONGRYONG UNIVERSITY</p>
           <h1>
-            역사와 전통이 살아 숨쉬는 곳,
-            <span>{brand.ko}</span>
+            <span className="hero-title-line">역사와 전통이 살아 숨쉬는 곳,</span>
+            <span className="hero-title-line">{brand.ko}</span>
           </h1>
-          <h2>{brand.platform}</h2>
+          <h2>2025학년도 2학기 수강신청 시스템</h2>
           <p className="hero-copy">
-            A production-like course registration platform built with load-balanced infrastructure,
-            Kubernetes deployment, CI/CD, DNS routing, and monitoring.
+            배움의 열정과 새로운 가능성이 만나는 곳,<br />
+            명룡대학교가 여러분의 빛나는 미래와 함께합니다.
           </p>
           <div className="hero-actions">
             <Link to="/login" className="primary-btn">2025 2학기 수강신청 <ArrowRight size={18} /></Link>
