@@ -2,6 +2,9 @@
 
 명룡대학교 수강신청 플랫폼 프론트엔드와 MariaDB 기반 API 개발 환경입니다.
 
+> 이 저장소는 팀 프로젝트의 개인 Fork이며 `develop` 브랜치에 전체 코드와 작업 기록을 보존합니다.  
+> 📌 [입사지원용 프로젝트 소개](https://github.com/rubyjeenkim/dragon-univ-portfolio) · 👥 [팀 원본 저장소](https://github.com/jhnet00/DragonUniv)
+
 ## Local Development
 
 1. MariaDB 준비
